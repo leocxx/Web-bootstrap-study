@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<title>登录会员</title>
+		<style type="text/css">
+			.form-style {
+				width: 100%;
+				max-width: 400px;
+				padding: 15px;
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-fixed-top" role="navigation" id="menu-nav" style="background-color:#fff;">
+			<div class="container">
+				<div class="navbar-header">
+					<img src="images/logo.png" alt="logo">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="navbar-collapse collapse navbar-right" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">首页</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">宝贝分类 <span
+									class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="">上装</a></li>
+								<li><a href="">裤装</a></li>
+								<li><a href="">配饰</a></li>
+								<li><a href="">鞋履</a></li>
+								<li><a href="">军事风系列</a></li>
+								<li><a href="">穿搭指南</a></li>
+							</ul>
+						</li>
+						<li><a href="#">全部宝贝</a></li>
+						<li><a href="login.html">登录会员</a></li>
+						<li><a href="#">联系客服</a></li>
+					</ul>
+				</div>
+		</nav>
+		<div class="container form-style">
+		    <div class="form row">
+		        <form class="form-horizontal col-sm-offset-3 col-md-offset-3">
+		            <h3 class="form-title">登录</h3>
+		            <div class="col-sm-9 col-md-9">
+		                <div class="form-group">
+		                    <!--        用户名图标和用户名输入框            -->
+		                    <i class="fa fa-user" aria-hidden="true"></i>
+		                    <input class="form-control" type="text" name="username" id="username" placeholder="请输入用户名" required autofocus>
+		                </div>
+		                    <!--        密码图标和密码输入框                -->
+		                <div class="form-group">
+		                    <i class="fa fa-key" aria-hidden="true"></i>
+		                    <input class="form-control " type="password" name="password" id="password" placeholder="请输入密码" required>
+		                </div>
+		                    <!--        用超链接跳转到注册页面               -->
+		                <div class="form-group">
+		                    <br>
+		                    <a href="register.html">没有账号？立即注册</a>
+		                </div>
+		                    <!--         登录按钮           -->
+		                <div class="form-group">
+		                    <input type="submit" value="登录" class="btn btn-success pull-right">
+		                </div>		
+		            </div>
+		        </form>
+		    </div>
+		</div>
+		<div style="background-color:#f7f7f7;" class="navbar-fixed-bottom">
+			<div class="container summary">
+				<div class="row">
+					<div class="col-md-4" style="margin-top:25px;">
+						<ul>
+							<li>关于我们</li>
+							<li><a href="">公司介绍</a></li>
+							<li><a href="">隐私条款</a></li>
+							<li><a href="">免责声明</a></li>
+							<li><a href="">加入我们</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4" style="margin-top:25px;">
+						<ul>
+							<li>帮助与支持</li>
+							<li><a href="">售后服务</a></li>
+							<li><a href="">常见问题</a></li>
+							<li><a href="">退/换服务</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4" style="margin-top:25px;">
+						<ul>
+							<li>互动关注</li>
+							<li><a href="">官方微博</a></li>
+							<li><a href="">官方微信</a></li>
+							<li><a href="">官方邮箱</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row" id="foot">
+					<div class="col-md-12">
+						<p class="pull-left">&copy 2021-2022 tjdzxxxxxchen.All Rights reserved
+						</p>
+						<p class="pull-right">
+							<a href="#top">回到顶部</a>
+						</p>
+					</div>
+		
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

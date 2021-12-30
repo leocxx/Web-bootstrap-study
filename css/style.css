@@ -1,0 +1,98 @@
+body {
+	padding-top: 70px;
+}
+.navbar-bar{background-color: #fff;}
+.navbar-nav > li > a {
+    color: #1c1c1c;
+    display: block;
+    font-size: 16px;
+   margin-top: 15px;
+   margin-right: 10px;
+}
+.navbar-nav > li > a:hover{
+	color: #5ab0dd;
+	background-color:#fff;
+}
+.navbar-header button.navbar-toggle span.icon-bar{
+	background-color: #000;
+}
+.navbar-header button.navbar-toggle span{margin-top:20px;}
+.collapse ul.nav li.dropdown ul.dropdown-menu li a{
+	margin-top:15px;
+	color: #000;
+}
+.collapse ul.nav li.dropdown ul.dropdown-menu{
+	background-color: #fff;
+	
+}
+.collapse ul.nav li.dropdown ul.dropdown-menu li a:hover{
+	color: blue;
+}
+.carousel>.carousel-inner >.item>img {
+                min-height: 400px;
+                width: 100%;
+            }
+
+/*.summary {
+            padding-right: 15px;
+            padding-left: 15px;
+        }*/
+
+  .summary .col-md-4 {
+            margin-bottom: 20px;
+            margin-top: 50px;
+            text-align: center;
+        }
+.container>.row>.col-md-4>a>p{
+	 font-family: 宋体;
+	 font-size: 14px;
+	 color: #000;
+}
+.container>.row>.col-md-4>a>img{
+	margin-bottom: 10px;
+	width: 163px;
+	height: 163px;
+}
+
+ .container .col-md-4 ul li{
+	list-style: none;
+	height: 40px;
+	font-size: 18px;
+	margin-left: -40px;
+}
+.container .col-md-4 ul li a{
+	font-family: 宋体;
+	font-size: 12px;
+    color: #000;
+}
+.container .col-md-4 ul li a:hover{
+	color:#3c78e6;
+	text-decoration: none;
+	padding-left: 10px;
+
+}
+.search{
+		width: 100%;
+		margin: 15px auto; 
+	}
+	.search-body{
+		width: 450px;
+		margin: 15px auto;
+	}
+	.search-input input{
+		width: 390px;
+		height: 36px;
+		border-color: #D9534F;
+	}
+	.btn-search{
+		width: 64px;
+	}
+	.search-keyword{
+		margin: 5px auto;
+		cursor: pointer;
+		color: #999;
+	}
+#foot{
+	height: 60px;
+	margin-top: 30px;
+}
